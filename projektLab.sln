@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "projektLab", "projektLab\projektLab.pyproj", "{72EF624E-FA0A-477D-9C09-27B1DABF753B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72EF624E-FA0A-477D-9C09-27B1DABF753B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EF624E-FA0A-477D-9C09-27B1DABF753B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {287D756D-4C95-4277-8BEF-64F0D6A28B38}
+	EndGlobalSection
+EndGlobal
