@@ -1,5 +1,9 @@
-,ID,NAME,E-MAIL,PHONE,CREATED,UPDATED
-0,202,Mary Smith,mary.smith@example.com,987654321.0,2022-03-15,2018-06-25
-1,203,Linda Williams,linda.williams@example.com,,2022-08-15,2022-08-21
-2,204,Robert Kwiatkowski,robert.kwiat@wp.pl,609666999.0,2023-01-15,2023-03-20
-3,5869,dawid trochimczuk,null,null,2024-05-02,2024-05-02
+ID,NAME,E-MAIL,PHONE,CREATED,UPDATED
+202,Mary Smith,mary.smith@example.com,987654321.0,2022-03-15,2018-06-25
+203,Linda Williams,linda.williams@example.com,,2022-08-15,2022-08-21
+204,Robert Kwiatkowski,robert.kwiat@wp.pl,609666999.0,2023-01-15,2023-03-20
+5869,dawid trochimczuk,,,2024-05-02,2024-05-02
+2094,wojchiech s,,,2024-05-11,2024-05-11
+222,krzysztof k,biurointerwencjiobywatelskich@wp.pl,321756956.0,2024-05-12,2024-05-12
+8676,wojchiech s,xx@x,123312123.0,2024-05-12,2024-05-12
+3025,wojchiech s,xx@x,123312123,2024-05-12,2024-05-12

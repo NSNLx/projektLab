@@ -6,7 +6,7 @@ def add_book(id,author,title,pages,created,updated):
     df=pd.concat([df,new],ignore_index=True)
     df.to_csv('book.csv',index=False)
     print("dodano ksiazke "+title)
-add_book("155","nigga","cotton work","123","yesterday","never")
+#add_book("155","nigga","cotton work","123","yesterday","never")
 
 
 def remove_book(category,name):
@@ -18,4 +18,4 @@ def remove_book(category,name):
     elif(category=="title"):
         df=df[df['TITLE']!=name]
         df.to_csv("book.csv",index=False)
-remove_book("id",155)
+#remove_book("id",155)
