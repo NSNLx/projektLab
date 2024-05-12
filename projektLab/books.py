@@ -10,6 +10,13 @@ def add_book(id,author,title,pages,created,updated):
 
 
 def remove_book(category,name):
+    """
+    Usuwa ksiazki z bazy danych.
+    
+    args:
+    category(str): zmienna sluzaca do rozpoznania, czy chcemy usunac po ID, badz tytule.
+    name(str): podany tytul, albo ID usuwanej ksi¹¿ki w zaleznoœci od zmiennej category.
+    """
     if(category=="id"):
         df=pd.read_csv("book.csv")
         df=df[df['ID']!=name]

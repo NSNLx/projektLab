@@ -4,14 +4,20 @@ import random
 import os
 
 def add_customer(id,name,email,phone):
-    df=pd.read_csv("customer.csv")
-    new=pd.DataFrame({"ID":[id],"NAME":[name],"E-MAIL":[email],"PHONE":[phone],"CREATED":[date.today()],"UPDATED":[date.today()]})
+    try:
+        df=pd.read_csv("customer.csv")
+    except FileNotFoundError:
+        print("plik nie istnieje")
+        new=pd.DataFrame({"ID":[id],"NAME":[name],"E-MAIL":[email],"PHONE":[phone],"CREATED":[date.today()],"UPDATED":[date.today()]})
     df=pd.concat([df,new],ignore_index=True)
     df.to_csv("customer.csv",index=False)
     print("utworzono klienta "+name)
 #add_customer("199","andrzej bialobrzeski","xxx@gmail.com","231213321")
 def remove_customer(id):
-    df=pd.read_csv("customer.csv")
+    try:
+        df=pd.read_csv("customer.csv")
+    except FileNotFoundError:
+        print("plik nie istnieje")
     df=df[df['ID']!=id]
     df.to_csv('customer.csv',index=False)
     print("usunieto klienta")
@@ -49,6 +55,13 @@ def add_customer_admin(name,email,phone):
 
 
 def borrow(id, *books):
+    """
+    Wypozycza ksiazki/ksiazke poprzez ID klienta
+    
+    args:
+    id(int): ID klienta, ktory wypozycza ksiazki.
+    books(int): ID ksiazek, ktore zostanq wypozyczone przez klienta.
+    """
     os.chdir("DATABASE")
     id = str(id)
     df = pd.read_csv(id + ".csv")
