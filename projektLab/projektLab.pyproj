@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>72ef624e-fa0a-477d-9c09-27b1dabf753b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>customers.py</StartupFile>
+    <StartupFile>int.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="books.py" />
     <Compile Include="customers.py" />
+    <Compile Include="int.py" />
     <Compile Include="main.py" />
     <Compile Include="projektLab.py" />
   </ItemGroup>

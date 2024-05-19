@@ -15,7 +15,7 @@ def remove_book(category,name):
     
     args:
     category(str): zmienna sluzaca do rozpoznania, czy chcemy usunac po ID, badz tytule.
-    name(str): podany tytul, albo ID usuwanej ksi¹¿ki w zaleznoœci od zmiennej category.
+    name(str): podany tytul, albo ID usuwanej ksiazki w zaleznosci od zmiennej category.
     """
     if(category=="id"):
         df=pd.read_csv("book.csv")
